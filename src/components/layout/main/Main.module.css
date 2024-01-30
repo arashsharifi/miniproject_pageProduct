@@ -1,0 +1,154 @@
+.container {
+  display: flex;
+  background-color: white;
+  height: 70vh;
+}
+.productSide {
+  margin: 1rem 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  overflow: scroll;
+}
+.productSide::-webkit-scrollbar {
+  display: none;
+}
+.productSide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.img {
+  background-color: #e6e8ec;
+}
+.imgCon {
+  width: 110px;
+}
+.products {
+  margin: 1rem 0;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 0.6rem;
+  column-gap: 2rem;
+}
+.Cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 8px 14px -4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 8px 14px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 8px 14px -4px rgba(0, 0, 0, 0.75);
+  border: 1px solid transparent;
+}
+.Cart:hover {
+  transition: 1s;
+  box-shadow: none;
+  border: 1px solid rgb(199, 198, 198);
+}
+.cont {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+.cont p {
+  white-space: nowrap;
+  padding-left: 8px;
+}
+.cont span {
+  text-align: end;
+  padding-right: 8px;
+  color: #56b280;
+  font-weight: bold;
+}
+
+.cartItemsSide {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cartItemsSide h2 {
+  text-align: center;
+}
+.btnCheck {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 70%;
+}
+.btnCheck p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.btnCh {
+  background-color: #56b280;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.3rem 1.6rem;
+  color: white;
+}
+.cartItem {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.productCart {
+  width: 100%;
+
+  display: flex;
+}
+.imgPro {
+  background-color: #e6e8ec;
+  width: 130px;
+}
+.txtCountPro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.txtCountPro h4 {
+  margin-left: 10px;
+}
+.quenTotalPrice {
+  width: 110%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 10px;
+}
+.quenTotalPrice p {
+  font-weight: bold;
+}
+.quenTotalPrice p:nth-child(4) {
+  color: #56b280;
+  font-weight: bold;
+  cursor: pointer;
+}
+.boxPro {
+  width: 20%;
+  display: flex;
+  gap: 0.3rem;
+  border: 2px solid #56b280;
+  margin-bottom: 8px;
+}
+.boxPro button {
+  border: 0;
+  padding: 0.1rem 0.3rem;
+  font-size: 1rem;
+  background-color: transparent;
+}
+.boxPro button:nth-child(3) {
+  padding: 0 0.4rem;
+  font-size: 1rem;
+}
+.boxPro span {
+}
+.pri {
+  display: flex;
+}

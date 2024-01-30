@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montez&display=swap");
+.myfont {
+  font-family: "Montez";
+}
+.container {
+  display: flex;
+}
+.imgInfo {
+  width: 170px;
+  background-color: #e6e8ec;
+}
+.textcontainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  font-size: medium;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.textcontainer h1 {
+  font-size: 28px;
+  font-family: "Montez";
+}
+.removeB {
+  color: #56b280;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.totalPrice {
+  display: flex;
+  align-items: center;
+
+  gap: 1rem;
+}
+.totalPrice p {
+  margin-top: 5px;
+}
+.count {
+  border: 1px solid #56b280;
+}
+.count button {
+  border: none;
+  font-size: medium;
+  background-color: transparent;
+  padding: 0.2rem 0.5rem;
+
+  font-size: x-large;
+  margin-bottom: 5px;
+}
+.count button:hover {
+  color: #56b280;
+}
+.count span {
+  font-size: large;
+
+  padding: 0.2rem;
+}

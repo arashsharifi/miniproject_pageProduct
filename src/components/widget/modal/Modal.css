@@ -1,0 +1,106 @@
+.modalContainer {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  width: 540px;
+  height: 380px;
+  border-radius: 12px;
+  background-color: #d9d9d9;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.cont {
+  display: flex;
+}
+.img_modal {
+  margin-top: 20px;
+  width: 180px;
+}
+.textContainer {
+  font-size: 1rem;
+}
+.textContainer span {
+  display: flex;
+  flex-direction: column;
+  color: #56b280;
+  font-weight: bold;
+}
+.sp {
+  display: flex;
+  color: #56b280;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.txtCont {
+  padding: 0.5rem;
+  border: 1px solid white;
+  font-size: 0.7rem;
+}
+.quantity {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 0.6rem;
+}
+.box {
+  width: 22%;
+  display: flex;
+  gap: 0.3rem;
+  border: 2px solid #56b280;
+}
+.box button {
+  border: 0;
+  padding: 0.1rem 0.3rem;
+  font-size: 1rem;
+  background-color: transparent;
+}
+.box button:nth-child(3) {
+  padding: 0 0.4rem;
+  font-size: 1rem;
+}
+.box span {
+  margin-top: 7px;
+}
+.btn-container {
+  width: 80%;
+  margin-top: 10px;
+}
+.btn-container button {
+  width: 80%;
+  border: none;
+  background-color: #56b280;
+  color: white;
+  border-radius: 0.25rem;
+}
+.leftAside {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.6rem;
+}
+.leftAside p:nth-child(2) {
+  max-width: 270px;
+  color: black;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.leftAside p:nth-child(3) {
+  color: #56b280;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
